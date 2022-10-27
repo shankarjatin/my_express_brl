@@ -27,7 +27,7 @@ app.get("/calculate/:operation",(req,res) =>
   const result = num1 + num2
   res.send(result + "")
   }
-  if else(opr == "subtract")
+  else if (opr == "subtract")
   {
   const num1 = Number(req.query.num1)
   const num2 = Number(req.query.num2)
